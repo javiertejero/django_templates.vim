@@ -47,6 +47,11 @@ map <F8>bl i{% block  %}<CR><CR>{% endblock %}<Esc>1ki
 imap <F8>bl {% block  %}<CR><CR>{% endblock %}<Esc>1ki
 vmap <F8>bl <Esc>`>a<CR>{% endblock %}<Esc>`<i{% block  %} <CR><Esc>i
 
+"blocktrans (jt) - TODO: reimplement as a snippet for 'htmldjango' file type
+map <F8>blt i{% blocktrans  %}<CR><CR>{% endblocktrans %}<Esc>1ki
+imap <F8>blt {% blocktrans  %}<CR><CR>{% endblocktrans %}<Esc>1ki
+vmap <F8>blt <Esc>`>a<CR>{% endblocktrans %}<Esc>`<i{% blocktrans  %} <CR><Esc>i
+
 "comment
 map <F8>com i{% comment %}<CR><CR>{% endcomment %}<Esc>1ki
 imap <F8>com {% comment %}<CR><CR>{% endcomment %}<Esc>1ki
